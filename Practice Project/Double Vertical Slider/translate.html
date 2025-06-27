@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>translateY Example</title>
+  <style>
+    .container {
+      position: relative;
+      height: 200px;
+      background-color: #f0f0f0;
+      margin: 40px;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: steelblue;
+      color: white;
+      line-height: 100px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .box.move-up {
+      transform: translateY(-50px); /* Moves the box 50px up */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box" id="myBox">Box</div>
+  </div>
+
+  <button onclick="moveBox()">Move Up</button>
+
+  <script>
+    function moveBox() {
+      document.getElementById("myBox").classList.toggle("move-up");
+    }
+  </script>
+
+</body>
+</html>

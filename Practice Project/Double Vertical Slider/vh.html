@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VH Example</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .full-height {
+      height: 100vh; /* Takes full height of the viewport */
+      background-color: lightblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .moved-up {
+      background-color: coral;
+      padding: 20px;
+      position: relative;
+      top: 300vh; /* Moves the element up by 10% of viewport height */
+    }
+  </style>
+</head>
+<body>
+  <div class="full-height">
+    <div class="moved-up">
+      I'm moved up by 10vh!
+    </div>
+  </div>
+</body>
+</html>

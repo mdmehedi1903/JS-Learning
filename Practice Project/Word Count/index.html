@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Word Counter</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white shadow-xl rounded-2xl p-6 w-full max-w-md space-y-4">
+    <h1 class="text-2xl font-bold text-gray-800 text-center">Word Counter</h1>
+    
+    <textarea id="input"
+      placeholder="Type your text here..."
+      class="w-full h-40 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none"
+    ></textarea>
+    
+    <div class="grid grid-cols-2 gap-4 text-sm text-gray-600">
+      <div class="bg-gray-50 p-3 rounded-lg shadow-inner">
+        <strong>Characters:</strong> <span id="char" class="float-right">32</span>
+      </div>
+      <div class="bg-gray-50 p-3 rounded-lg shadow-inner">
+        <strong>Words:</strong> <span id="word" class="float-right">2</span>
+      </div>
+      <div class="bg-gray-50 p-3 rounded-lg shadow-inner col-span-1">
+        <strong>Words Left:</strong> <span  id="wordLeft" class="float-right">8</span>
+      </div>
+      <div class="bg-gray-50 p-3 rounded-lg shadow-inner col-span-1">
+        <strong>Reading Time:</strong> <span  id="reading" class="float-right">0 sec</span>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

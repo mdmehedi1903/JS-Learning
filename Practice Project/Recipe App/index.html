@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <link rel="icon"
+      href="https://scontent.fzyl1-1.fna.fbcdn.net/v/t39.30808-6/326292213_1233273087600760_3847057262609278010_n.png?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFUqAs-RQCvyc_yN-EOLQqPMmrGBANemdAyasYEA16Z0FcTxavILGK0UyWO89OJj0XpcBJ0dyKdxkHMJaynxsEl&_nc_ohc=OjCmCBuPgTsAX-W2-NQ&_nc_ht=scontent.fzyl1-1.fna&oh=00_AfAIJKG0pUbKJ1Zqx1kvTeWIpc6eN-ZYQ_BgzIpq5a6D2g&oe=63F4D464"
+      type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div>
+        <a href="https://ostad.app/">
+          <img src="https://i.ibb.co/HhLC1c3/ostadlogo.png" alt="logo">
+        </a>
+      </div>
+      <div class="visit">
+        <a href="https://ostad.app/">Visit Us</a>
+      </div>
+    </div>
+    <header>
+      <div class="meal-search container">
+        <h2>What would you <span>like to cook?</span></h2>
+        <div class="search-box">
+          <form action="" onsubmit="return false">
+            <input type="text" id="search" placeholder="Search..." />
+            <button title="search" type="submit" class="btn search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <section class="container">
+      <div class="meal-result">
+        <div class="meals" id="meal">
+          <!-- Single meal item -->
+          <!-- <div class="meal">
+            <div class="meal-img">
+              <img src="./images/food.jpg" alt="" />
+            </div>
+            <div class="meal-name">
+              <h3>Potato Chips</h3>
+              <a href="#" class="recipe-btn">View Recipe &rarr;</a>
+            </div>
+          </div> -->
+          <!-- Single meal item End -->
+        </div>
+      </div>
+
+      <!-- Meal modal -->
+      <div class="meal-modal">
+        <div class="meal-details">
+          <button title="meal" class="btn close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+
+          <!-- Meal Content -->
+          <div class="recipe-content">
+            <!-- <div class="recipe-img">
+              <img src="./images/food.jpg" alt="" />
+            </div>
+            <h2 class="recipe-title">Meal Name Here</h2>
+
+            <div class="recipe-instruction">
+              <h3>Instruction</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias
+                consequuntur vero dolores ratione, dolorem magnam fuga cum,
+                veniam assumenda beatae blanditiis eaque! Nulla praesentium sunt
+                impedit, velit dolorum veniam deleniti.
+              </p>
+            </div>
+
+            <div class="recipe-link">
+              <a href="#" target="_blank">Watch Video</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
