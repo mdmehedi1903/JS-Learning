@@ -16,3 +16,12 @@ async function run() {
 run();
 
 console.log("End");
+
+
+
+
+async function myFunc() {
+  return "Hello World"
+}
+
+myFunc().then(result=>console.log(result))

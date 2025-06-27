@@ -8,11 +8,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "nodemon": "^3.1.9"
   },
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdmehedi1903/JS-Learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdmehedi1903/JS-Learning/issues"
+  },
+  "homepage": "https://github.com/mdmehedi1903/JS-Learning#readme",
+  "description": ""
 }
